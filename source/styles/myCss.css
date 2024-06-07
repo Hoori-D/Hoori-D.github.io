@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+
+body {
+    font-family: Inconsolata, serif;
+    background: linear-gradient(90deg, #a035f8 0%, #5d6de5 100%);
+}
+
+p {
+    color:#072626;
+}
+.navbar {
+    background:#d3bfbf;
+    padding:0;
+}
+
+.container-fluid {
+    padding-left: 0;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-brand img {
+    width: 90px;
+}
+
+.navbar-toggler {
+    background-color:#67457c;
+}
+
+.nav-link {
+    color:#072626;
+}
+
+.navbar-nav .nav-link.active {
+    color:#1a4949;
+}
+
+.sidebar {
+    color:#072626;
+    background: linear-gradient(90deg, #a035f8 0%, #5d6de5 100%);
+}
+
+.card a {
+    text-decoration:none;
+    color:#072626;
+}
+
+.slide-text,
+footer-text {
+    color:#072626;
+    margin: auto auto;
+}
+
+footer,
+.btn-primary {
+    background: linear-gradient(0deg, #a035f8 0%, #5d6de5 100%);
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+    animation: call 2s ease-in-out 0s infinite normal forwards;
+}
+
+@keyframes call {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 50%;
+	}
+
+	10% {
+		transform: rotate(8deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-10deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(10deg);
+	}
+
+	80% {
+		transform: rotate(-8deg);
+	}
+
+	90% {
+		transform: rotate(8deg);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display:None;
+    }
+}
+
+
